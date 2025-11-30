@@ -103,7 +103,7 @@ router.post("/create-batch", authenticateJWTToken, async (req, res) => {
       });
     }
 
-    s
+    
     await connection.beginTransaction();
 
     const createdSimulations = [];
